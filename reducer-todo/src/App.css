@@ -1,0 +1,29 @@
+  
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ui.list>.item .header.todo-complete {
+  color: green;
+}
+
+.ui.list>.item .header.todo-complete::after {
+  content: '✔️';
+}
+
+.overdue {
+  color: red;
+}
+
+.tag {
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 0px 5px;
+  margin: 0px 2px;
+}
